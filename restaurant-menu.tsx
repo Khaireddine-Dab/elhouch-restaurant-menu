@@ -66,9 +66,9 @@ export default function Component() {
       description: "Artfully crafted beginnings to your culinary journey",
       items: [
         {
-          name: "Hokkaido Scallops",
+          name: "Salade tunisienne",
           description: "Pan-seared diver scallops, cauliflower velouté, pancetta crisps, truffle oil",
-          price: "$28",
+          price: "8DT",
           popular: true,
           dietary: ["gluten-free"],
           wine: "Chablis Premier Cru",
@@ -76,25 +76,116 @@ export default function Component() {
           image: "/placeholder.svg?height=120&width=180",
         },
         {
-          name: "Tuna Tataki",
+          name: "Salade mechouia",
           description: "Sesame-crusted yellowfin, wasabi aioli, pickled daikon, soy reduction",
-          price: "$26",
+          price: "10DT",
           dietary: ["gluten-free"],
           wine: "Sancerre",
           image: "/placeholder.svg?height=120&width=180",
         },
         {
-          name: "Foie Gras Terrine",
+          name: "Salade césar",
           description: "House-made terrine, brioche toast, fig compote, aged balsamic",
-          price: "$32",
+          price: "18DT",
           wine: "Sauternes",
           premium: true,
           image: "/placeholder.svg?height=120&width=180",
         },
         {
-          name: "Burrata Sublime",
+          name: "Salade composée",
           description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
-          price: "$22",
+          price: "18DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },    
+          {
+          name: "Salade pouple El houch",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "29DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },        {
+          name: "Oeufs de seche sautés",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "29T",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },        {
+          name: "Carpaccio de poulpe",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "28DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },        {
+          name: "Soupe de poisson",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "10DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },        {
+          name: "Soupe à l'oignon",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "10DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },        {
+          name: "Soupe de légumes",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "10DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },
+                {
+          name: "Brick au thon",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "8DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },
+                {
+          name: "Brick aux chevettes",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "12DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },
+                {
+          name: "Brick les doigts de FATMA",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "10DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },
+                {
+          name: "Ojja aux merguez",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "16DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },
+                {
+          name: "Ojja aux crevettes",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "24DT",
+          dietary: ["vegetarian"],
+          wine: "Pinot Grigio",
+          image: "/placeholder.svg?height=120&width=180",
+        },
+                {
+          name: "Ojja à la viande séchée(Kadid)",
+          description: "Imported burrata, heirloom tomatoes, basil oil, aged modena, sea salt",
+          price: "18DT",
           dietary: ["vegetarian"],
           wine: "Pinot Grigio",
           image: "/placeholder.svg?height=120&width=180",
@@ -243,17 +334,17 @@ export default function Component() {
               <div className="flex items-center gap-6">
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
-                  <span>123 Culinary Boulevard, Downtown District</span>
+                  <span>Avenue Salah Ben Youssef, Midoun, Tunisia</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>(555) 123-4567</span>
+                  <span>99 115 013</span>
                 </div>
               </div>
               <div className="flex items-center gap-4">
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-                  <span>Dinner: 5:30 PM - 10:30 PM</span>
+                  <span>Dinner: 11:30 AM - 00:30 AM</span>
                 </div>
                 <div className="flex gap-2">
                   <Instagram className="w-4 h-4 hover:text-stone-900 cursor-pointer" />
@@ -272,7 +363,7 @@ export default function Component() {
                   <ChefHat className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-5xl font-serif text-stone-900 mb-2">Bella Vista</h1>
+                  <h1 className="text-5xl font-serif text-stone-900 mb-2">Elhouch Restaurant</h1>
                   <div className="flex items-center justify-center gap-2 text-amber-600">
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} className="w-4 h-4 fill-current" />
@@ -554,12 +645,10 @@ export default function Component() {
               <h4 className="font-semibold text-stone-900 mb-3">Location & Hours</h4>
               <div className="space-y-2 text-stone-600">
                 <p>
-                  123 Culinary Boulevard
-                  <br />
-                  Downtown District, City 12345
+Avenue Salah Ben Youssef, Midoun, Tunisia<br>99 115 013</br>
                 </p>
-                <p>Dinner: Tuesday - Sunday, 5:30 PM - 10:30 PM</p>
-                <p>Closed Mondays</p>
+                <p>Dinner: 7d/7, 11:30 AM - 00:30 AM</p>
+
               </div>
             </div>
             <div>
@@ -581,7 +670,7 @@ export default function Component() {
           </div>
           <Separator className="my-6 bg-stone-200" />
           <div className="text-center text-xs text-stone-500">
-            <p>© 2024 Bella Vista Restaurant. All rights reserved. | Prices subject to change without notice.</p>
+            <p>© 2025 Elhouch Restaurant. All rights reserved. | Prices subject to change without notice.</p>
           </div>
         </div>
       </footer>
